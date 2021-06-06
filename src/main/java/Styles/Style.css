@@ -1,0 +1,104 @@
+.navmenuContainer {
+ -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-padding: 5;
+    -fx-content-display: flex;
+}
+
+.title {
+    -fx-text-fill: red;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-font-family: Tahoma;
+}
+.vls {
+    -fx-text-fill: #4e22ef;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-font-family: Tahoma;
+}
+
+.btnaddmoney {
+    -fx-background-color: none;
+    -fx-font-weight: bold;
+    -fx-cursor: pointer;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 50;
+    }
+.btnaddmoney:hover {
+    -fx-border-width: 2;
+    -fx-border-color: blue;
+    -fx-border-radius: 50;
+}
+
+.btnedit {
+    -fx-background-color: none;
+    -fx-font-weight: bold;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 6;
+}
+.btnedit:hover {
+    -fx-border-width: 2;
+    -fx-border-color: blue;
+    -fx-border-radius: 6;
+}
+
+.btnlogout {
+    -fx-background-color: none;
+    -fx-font-weight: bold;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 6;
+}
+.btnlogout:hover {
+    -fx-border-width: 2;
+    -fx-border-color: blue;
+    -fx-border-radius: 6;
+}
+
+
+.card {
+    -fx-background-color: none;
+    -fx-font-weight: bold;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 6;
+}
+.card:hover {
+    -fx-border-width: 2;
+    -fx-border-color: blue;
+    -fx-border-radius: 6;
+}
+
+.fillter {
+    -fx-font-size: 18;
+    -fx-border-radius: 6;
+    -fx-text-fill: #fff200;
+    -fx-font-weight: bold;
+}
+
+.fillter:hover {
+    -fx-font-size: 20;
+    -fx-border-radius: 6;
+    -fx-text-fill: #ff00d5;
+    -fx-font-weight: bold;
+}
+
+.active {
+    -fx-text-fill: red;
+    -fx-underline: true;
+    -fx-font-weight: bold;
+}
+
+.imgview:hover {
+    -fx-translate-y: 10;
+    -fx-border-color: red;
+    -fx-border-width: 2;
+    -fx-border-radius: 25;
+}
+
+.containerAll {
+    -fx-background-color: black;
+}
